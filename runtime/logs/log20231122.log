@@ -1,0 +1,18 @@
+[INFO][hashrate.go:63]2023/11/22 10:20:42 [Debug: JSON Body = %+v
+ {19 1 亿算力 100 6 365 10000 10000 0 1 0}]
+[INFO][hashrate.go:108]2023/11/22 10:20:42 [Hash rate added successfully for user: %s, product: %d 10001 19]
+[INFO][hashrate.go:209]2023/11/22 14:36:35 [GetHashRate Received Params: %+v
+ 0x105518500]
+[ERROR][hashrate.go:130]2023/11/22 15:19:59 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/22 15:22:19 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/22 15:23:00 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/22 15:43:34 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/22 15:49:49 [UserId or ProdId is missing]
+[ERROR][hashrate.go:131]2023/11/22 15:50:41 [UserId or ProdId is missing]
+[ERROR][hashrate.go:35]2023/11/22 15:52:28 [UserId or ProdId is missing]
+[INFO][hashrate.go:210]2023/11/22 16:52:15 [GetHashRate Received Params: %+v
+ 0x1029b0590]
+[INFO][hashrate.go:210]2023/11/22 16:56:21 [GetHashRate Received Params: %+v
+ 0x1029b0590]
+[INFO][hashrate.go:210]2023/11/22 16:58:11 [GetHashRate Received Params: %+v
+ 0x1029b0590]

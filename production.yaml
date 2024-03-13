@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  server_bill:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: server_bill_ai:v0.1.1
+    ports:
+      - "28070:28070"
+    volumes:
+      - .:/app
+    environment:
+      - GIN_MODE=release
+    # 使用自定义的启动命令脚本
+    command: ["/server-bill"]
+

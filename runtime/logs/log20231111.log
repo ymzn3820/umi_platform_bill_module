@@ -1,0 +1,143 @@
+[INFO][hashrate.go:212]2023/11/11 10:39:50 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 10:53:42 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 10:54:51 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 10:54:51 [Debug: JSON Body = %+v
+ {4 年会员 198 3 365 80000 40000 40000 1 0}]
+[INFO][hashrate.go:212]2023/11/11 10:54:56 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 10:55:01 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 10:55:24 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 10:55:24 [Debug: JSON Body = %+v
+ {19 通用流量包 10 6 365 1000 1000 0 1 0}]
+[INFO][hashrate.go:212]2023/11/11 10:55:29 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:63]2023/11/11 11:02:35 [Debug: JSON Body = %+v
+ {4 年会员 198 3 365 80000 40000 40000 1 0}]
+[INFO][hashrate.go:108]2023/11/11 11:02:35 [Hash rate added successfully for user: %s, product: %d 34875658263 4]
+[INFO][hashrate.go:63]2023/11/11 13:36:28 [Debug: JSON Body = %+v
+ {6 月会员 35 3 31 4000 2000 2000 1 0}]
+[INFO][hashrate.go:108]2023/11/11 13:36:28 [Hash rate added successfully for user: %s, product: %d 11704771232591134787 6]
+[INFO][hashrate.go:212]2023/11/11 13:36:39 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:63]2023/11/11 13:38:12 [Debug: JSON Body = %+v
+ {19 通用流量包 10 6 365 1000 1000 0 1 0}]
+[INFO][hashrate.go:108]2023/11/11 13:38:12 [Hash rate added successfully for user: %s, product: %d 11704771232591134787 19]
+[INFO][hashrate.go:212]2023/11/11 13:38:15 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:44:41 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:45:17 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:52:50 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:54:11 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:55:02 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 13:55:24 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 14:35:37 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 14:35:37 [Debug: JSON Body = %+v
+ {12 体验卡 2.9 3 2 900 450 450 0 0}]
+[INFO][hashrate.go:212]2023/11/11 14:35:57 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 14:37:15 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 14:37:15 [Debug: JSON Body = %+v
+ {21 通用流量包 50 6 365 5000 5000 0 1 0}]
+[INFO][hashrate.go:252]2023/11/11 14:39:47 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 14:39:47 [Debug: JSON Body = %+v
+ {21 通用流量包 50 6 365 5000 5000 0 1 0}]
+[INFO][hashrate.go:63]2023/11/11 15:20:15 [Debug: JSON Body = %+v
+ {3 三年会员 298 3 1095 250000 130000 120000 0 0}]
+[INFO][hashrate.go:108]2023/11/11 15:20:15 [Hash rate added successfully for user: %s, product: %d 11702916988716073038 3]
+[INFO][hashrate.go:212]2023/11/11 16:32:25 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:58:28 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:58:30 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:58:33 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:58:45 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:58:45 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:59:00 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:59:10 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:59:15 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:59:21 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 16:59:37 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 16:59:45 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 16:59:45 [Debug: JSON Body = %+v
+ {36 50 亿算力 998 3 1825 500000 250000 250000 1 0}]
+[INFO][hashrate.go:212]2023/11/11 16:59:46 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:212]2023/11/11 17:01:27 [GetHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:252]2023/11/11 17:19:14 [RenewHashRate Received Params: %+v
+ 0x1029bc090]
+[INFO][hashrate.go:284]2023/11/11 17:19:14 [Debug: JSON Body = %+v
+ {39 8 亿 算力 198 3 365 80000 40000 40000 1 0}]
+[INFO][hashrate.go:212]2023/11/11 17:42:57 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:43:01 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:44:45 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:44:50 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:44:56 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:45:01 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:46:10 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:47:37 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:51:44 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:52:02 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 17:53:37 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:212]2023/11/11 18:18:20 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:63]2023/11/11 18:19:13 [Debug: JSON Body = %+v
+ {19 1 亿算力 100 6 365 10000 10000 0 1 0}]
+[INFO][hashrate.go:108]2023/11/11 18:19:13 [Hash rate added successfully for user: %s, product: %d 11729368853808824332 19]
+[INFO][hashrate.go:212]2023/11/11 18:19:37 [GetHashRate Received Params: %+v
+ 0x1028500c0]
+[INFO][hashrate.go:216]2023/11/11 18:37:12 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:37:15 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:37:23 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:37:39 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:45:50 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:46:10 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/11 18:46:49 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/13 09:38:38 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/13 09:38:55 [GetHashRate Received Params: %+v
+ 0x1028141d0]
+[INFO][hashrate.go:216]2023/11/13 14:12:24 [GetHashRate Received Params: %+v
+ 0x1028141d0]

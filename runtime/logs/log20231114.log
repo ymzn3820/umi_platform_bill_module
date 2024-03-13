@@ -1,0 +1,101 @@
+[INFO][hashrate.go:216]2023/11/14 13:46:38 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 13:46:40 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 13:46:41 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 13:46:42 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 13:46:42 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:256]2023/11/14 13:53:41 [RenewHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:288]2023/11/14 13:53:41 [Debug: JSON Body = %+v
+ {39 8 亿 算力 198 3 365 80000 40000 40000 1 0}]
+[INFO][hashrate.go:216]2023/11/14 13:54:18 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 14:02:01 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 14:22:50 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:09:23 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:11:24 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:11:32 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:11:55 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:12:02 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:12:33 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:13:22 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:13:30 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:13:35 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 16:17:42 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[ERROR][hashrate.go:130]2023/11/14 16:28:05 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/14 17:02:40 [UserId or ProdId is missing]
+[ERROR][hashrate.go:130]2023/11/14 17:03:37 [UserId or ProdId is missing]
+[INFO][hashrate.go:216]2023/11/14 17:04:34 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:05:52 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[ERROR][hashrate.go:130]2023/11/14 17:05:55 [UserId or ProdId is missing]
+[INFO][hashrate.go:216]2023/11/14 17:06:58 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:16:20 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:16:21 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[ERROR][hashrate.go:130]2023/11/14 17:16:47 [UserId or ProdId is missing]
+[INFO][hashrate.go:216]2023/11/14 17:17:11 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:24:19 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:24:20 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:25:21 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:26:13 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:26:37 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 17:29:47 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:26:49 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:27:34 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:28:29 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:28:55 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:30:20 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:30:27 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:32:53 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:33:09 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:35:47 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:36:12 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:36:49 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:38:21 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:38:27 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:38:39 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:38:42 [GetHashRate Received Params: %+v
+ 0x1011481d0]
+[INFO][hashrate.go:216]2023/11/14 18:40:38 [GetHashRate Received Params: %+v
+ 0x1011481d0]

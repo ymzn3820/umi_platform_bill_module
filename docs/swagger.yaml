@@ -1,0 +1,355 @@
+definitions:
+  app.Response:
+    properties:
+      code:
+        type: integer
+      data: {}
+      msg:
+        type: string
+    type: object
+info:
+  contact: {}
+  description: An example of gin
+  license:
+    name: MIT
+    url: https://github.com/EDDYCJY/go-gin-example/blob/master/LICENSE
+  termsOfService: https://github.com/EDDYCJY/go-gin-example
+  title: Golang Gin API
+  version: "1.0"
+paths:
+  /api/v1/active:
+    post:
+      parameters:
+      - description: 用户id
+        in: query
+        name: user_id
+        type: string
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+  /api/v1/complimentary:
+    post:
+      consumes:
+      - multipart/form-data
+      parameters:
+      - description: 用户id
+        in: formData
+        name: user_id
+        type: string
+      - description: 赠送的算力值
+        in: formData
+        name: hashrate
+        type: integer
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+  /api/v1/hashrate:
+    post:
+      parameters:
+      - description: 用户id
+        in: query
+        name: user_id
+        type: string
+      - description: 产品id
+        in: query
+        name: prod_id
+        type: integer
+      - description: 数量
+        in: query
+        name: quantity
+        type: integer
+      - description: 种类
+        in: query
+        name: prod_cate_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+    put:
+      parameters:
+      - description: 用户id
+        in: query
+        name: user_id
+        type: string
+      - description: 消耗的算力值
+        in: query
+        name: hashrate
+        type: number
+      - description: 场景，对话为1，其余随便传
+        in: query
+        name: scene
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+  /api/v1/hashrate/{user_id}:
+    get:
+      parameters:
+      - description: 用户id
+        in: path
+        name: user_id
+        type: string
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+  /api/v1/product/{prod_id}:
+    get:
+      parameters:
+      - description: prod_id
+        in: path
+        name: prod_id
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Get Product Information By Product Id
+  /api/v1/renew:
+    post:
+      parameters:
+      - description: 用户id
+        in: query
+        name: user_id
+        type: string
+      - description: 产品id
+        in: query
+        name: prodId
+        type: string
+      - description: 数量
+        in: query
+        name: quantity
+        type: string
+      - description: 种类
+        in: query
+        name: prodCate
+        type: string
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+  /api/v1/tags:
+    get:
+      parameters:
+      - description: Name
+        in: query
+        name: name
+        type: string
+      - description: State
+        in: query
+        name: state
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Get multiple article tags
+    post:
+      parameters:
+      - description: Name
+        in: body
+        name: name
+        required: true
+        schema:
+          type: string
+      - description: State
+        in: body
+        name: state
+        schema:
+          type: integer
+      - description: CreatedBy
+        in: body
+        name: created_by
+        schema:
+          type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Add article tag
+  /api/v1/tags/{id}:
+    delete:
+      parameters:
+      - description: ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Delete article tag
+    put:
+      parameters:
+      - description: ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Name
+        in: body
+        name: name
+        required: true
+        schema:
+          type: string
+      - description: State
+        in: body
+        name: state
+        schema:
+          type: integer
+      - description: ModifiedBy
+        in: body
+        name: modified_by
+        required: true
+        schema:
+          type: string
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Update article tag
+  /api/v1/tags/export:
+    post:
+      parameters:
+      - description: Name
+        in: body
+        name: name
+        schema:
+          type: string
+      - description: State
+        in: body
+        name: state
+        schema:
+          type: integer
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Export article tag
+  /api/v1/tags/import:
+    post:
+      parameters:
+      - description: Image File
+        in: formData
+        name: image
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Import Image
+  /auth:
+    get:
+      parameters:
+      - description: userName
+        in: query
+        name: username
+        required: true
+        type: string
+      - description: password
+        in: query
+        name: password
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/app.Response'
+        "20000":
+          description: ""
+          schema:
+            $ref: '#/definitions/app.Response'
+      summary: Get Auth
+swagger: "2.0"
